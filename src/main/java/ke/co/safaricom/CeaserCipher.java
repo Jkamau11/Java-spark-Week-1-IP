@@ -1,12 +1,10 @@
-package CeaserCipher;
-
-import java.util.Scanner;
+package ke.co.safaricom;
 
 public class CeaserCipher {
     // This rotates a character k-positions
 
-    private String mText;
-    private int mShift;
+    private final String mText;
+    private final int mShift;
 
     public CeaserCipher(String mText, int mShift) {
         this.mText = mText;
